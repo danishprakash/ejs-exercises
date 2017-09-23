@@ -1,2 +1,2 @@
-# ydkjs-exercises
-Solutions to the book series YDKJS.
+# ejs-exercises
+Solutions to the book EJS.
