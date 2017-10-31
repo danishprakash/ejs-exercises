@@ -5,4 +5,6 @@ function average(array) {
 
 function mother_child(p) { return p.mother.age - p.age; }
 
-console.log(average(array.map(mother_child)));
+console.log(average(array.filter(function(person) {
+	return person.mother.name != null;
+}).map(mother_child)));
